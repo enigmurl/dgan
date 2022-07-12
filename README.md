@@ -1,0 +1,1 @@
+Distribution Generative Adversarial Network
