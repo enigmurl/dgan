@@ -51,7 +51,9 @@ Below, is a snippet from training.
 
 ![training](./img/training.png)
 
-Unfortunately, the DGAN does not appear to perform all that well, especially for the amount of epochs. In fact, it may have even been worse in performance compared with a regular GAN. Realistically, it does not appear to adequately counter mode collapse (at least not to a statistically significant degree). At the time of this writing, the details of the malperformance are not known to the author. Also at the time of this writing, no quantative measures were recorded regarding the performance (except for generator/discriminator loss).
+Unfortunately, the DGAN does not appear to perform all that well, especially for the amount of epochs. In fact, it may have even been worse in performance compared with a regular GAN. Granted, the GAN didn't perform all that well either, so there may be an underlying problem in the code that is affecting the two.
+
+Realistically, the DGAN does not appear to adequately counter mode collapse (at least not to a statistically significant degree). At the time of this writing, the details of the malperformance are not known to the author. Also at the time of this writing, no quantative measures were recorded regarding the performance (except for generator/discriminator loss).
 
 ## Future
 Admittedly, not a lot of work was done tuning the hyperparameters. Trying a different amount of entries sent to the discriminator used would probably be the first option (for reference, four was the number used). 
